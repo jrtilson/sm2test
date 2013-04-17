@@ -21,8 +21,8 @@
 	<a href='#' onclick='javascript:playhtml5sound("podcast/bunny.mp3");return false;'>mp3</a> | 
 	<a href='#' onclick='javascript:playhtml5sound("podcast/bunny.m4a");return false;'>m4a</a><br />
 	<strong>Direct linked:</strong>
-	<a href='#' onclick='javascript:playhtml5sound("bunny.mp3");return false;'>mp3</a> | 
-	<a href='#' onclick='javascript:playhtml5sound("bunny.m4a");return false;'>m4a</a><br />
+	<a href='#' onclick='javascript:playhtml5sound("dl.php?file=bunny.mp3&type=mpeg");return false;'>mp3</a> | 
+	<a href='#' onclick='javascript:playhtml5sound("dl.php?file=bunny.m4a&type=mp4");return false;'>m4a</a><br />
 
 	<script>	  
 		soundManager.setup({
@@ -32,13 +32,13 @@
 		    onready: function() {
 				soundManager.createSound({
 					id: 'phpmp3',
-					url: 'podcast/bunny.mp3',
+					url: 'dl.php?file=bunny.mp3&type=mpeg',
 					volume: 50
 				});
 
 				soundManager.createSound({
 					id: 'phpm4a',
-					url: 'podcast/bunny.m4a',
+					url: 'dl.php?file=bunny.m4a&type=mp4',
 					volume: 50
 				});
 

@@ -1,5 +1,0 @@
-RewriteEngine on
-RewriteRule podcast/(.*\.*)    dl.php?file=$1 [L]
-
-AddType audio/mp4 .mp4 .m4a
-AddType audio/mpeg .mp1 .mp2 .mp3 .mpg .mpeg
