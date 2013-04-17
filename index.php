@@ -2,7 +2,7 @@
 <head>
 	<title>Soundmanager 2 Testing</title>
 	<!-- soundManager API -->
-	<script src="../soundmanager2/script/soundmanager2.js"></script>
+	<script src="soundmanager2/script/soundmanager2.js"></script>
 
 </head>
 <body style='font-size:2em;'>
