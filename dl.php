@@ -45,7 +45,7 @@ if (isset($_SERVER['HTTP_RANGE'])) {
 	header('HTTP/1.1 200 OK');
 }
 
-header("Content-Type: audio/$type"); 
+header("Content-Type: audio/mpeg"); 
 header('Cache-Control: public, must-revalidate, max-age=0');
 header('Pragma: no-cache');  
 header('Accept-Ranges: bytes');
