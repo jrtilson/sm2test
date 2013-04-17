@@ -18,11 +18,11 @@
 	<hr />
 	<h4>HTML5 Audio Test</h4>
 	<strong>PHP Delivered:</strong>
-	<a href='#' onclick='javascript:playhtml5sound("podcast/bunny.mp3");return false;'>mp3</a> | 
-	<a href='#' onclick='javascript:playhtml5sound("podcast/bunny.m4a");return false;'>m4a</a><br />
-	<strong>Direct linked:</strong>
 	<a href='#' onclick='javascript:playhtml5sound("dl.php?file=bunny.mp3&type=mpeg");return false;'>mp3</a> | 
 	<a href='#' onclick='javascript:playhtml5sound("dl.php?file=bunny.m4a&type=mp4");return false;'>m4a</a><br />
+	<strong>Direct linked:</strong>
+	<a href='#' onclick='javascript:playhtml5sound("bunny.mp3");return false;'>mp3</a> | 
+	<a href='#' onclick='javascript:playhtml5sound("bunny.m4a");return false;'>m4a</a><br />
 
 	<script>	  
 		soundManager.setup({
